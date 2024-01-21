@@ -23,7 +23,7 @@ while (running) {
       window.alert("Too High! try again");
     } else {
       window.alert(
-        `You are correct answer ${ans}. it took you ${attempts} attempts`
+        `Your are correct answer ${ans}. it took you ${attempts} attempts`
       );
       running = false;
     }
